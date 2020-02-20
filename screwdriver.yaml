@@ -31,6 +31,151 @@ jobs:
             - step13: sleep 2 && echo ok
             - step14: sleep 2 && echo ok
             - step15: sleep 2 && echo ok
+    fan4:
+        requires: main
+        steps:
+            - step13: sleep 2 && echo ok
+            - step14: sleep 2 && echo ok
+            - step15: sleep 2 && echo ok
+    fan5:
+        requires: main
+        steps:
+            - step13: sleep 2 && echo ok
+            - step14: sleep 2 && echo ok
+            - step15: sleep 2 && echo ok
+    fan6:
+        requires: main
+        steps:
+            - step13: sleep 2 && echo ok
+            - step14: sleep 2 && echo ok
+            - step15: sleep 2 && echo ok
+    fan7:
+        requires: main
+        steps:
+            - step13: sleep 2 && echo ok
+            - step14: sleep 2 && echo ok
+            - step15: sleep 2 && echo ok
+    fan8:
+        requires: main
+        steps:
+            - step13: sleep 2 && echo ok
+            - step14: sleep 2 && echo ok
+            - step15: sleep 2 && echo ok
+    fan9:
+        requires: main
+        steps:
+            - step13: sleep 2 && echo ok
+            - step14: sleep 2 && echo ok
+            - step15: sleep 2 && echo ok
+    fan10:
+        requires: main
+        steps:
+            - step13: sleep 2 && echo ok
+            - step14: sleep 2 && echo ok
+            - step15: sleep 2 && echo ok
+    fan11:
+        requires: main
+        steps:
+            - step13: sleep 2 && echo ok
+            - step14: sleep 2 && echo ok
+            - step15: sleep 2 && echo ok
+    fan12:
+        requires: main
+        steps:
+            - step13: sleep 2 && echo ok
+            - step14: sleep 2 && echo ok
+            - step15: sleep 2 && echo ok
+    fan13:
+        requires: main
+        steps:
+            - step13: sleep 2 && echo ok
+            - step14: sleep 2 && echo ok
+            - step15: sleep 2 && echo ok
+    fan14:
+        requires: main
+        steps:
+            - step13: sleep 2 && echo ok
+            - step14: sleep 2 && echo ok
+            - step15: sleep 2 && echo ok
+    fan15:
+        requires: main
+        steps:
+            - step13: sleep 2 && echo ok
+            - step14: sleep 2 && echo ok
+            - step15: sleep 2 && echo ok
+    fan16:
+        requires: main
+        steps:
+            - step13: sleep 2 && echo ok
+            - step14: sleep 2 && echo ok
+            - step15: sleep 2 && echo ok
+    fan17:
+        requires: main
+        steps:
+            - step13: sleep 2 && echo ok
+            - step14: sleep 2 && echo ok
+            - step15: sleep 2 && echo ok
+    fan18:
+        requires: main
+        steps:
+            - step13: sleep 2 && echo ok
+            - step14: sleep 2 && echo ok
+            - step15: sleep 2 && echo ok
+    fan19:
+        requires: main
+        steps:
+            - step13: sleep 2 && echo ok
+            - step14: sleep 2 && echo ok
+            - step15: sleep 2 && echo ok
+    fan20:
+        requires: main
+        steps:
+            - step13: sleep 2 && echo ok
+            - step14: sleep 2 && echo ok
+            - step15: sleep 2 && echo ok
+    fan21:
+        requires: main
+        steps:
+            - step13: sleep 2 && echo ok
+            - step14: sleep 2 && echo ok
+            - step15: sleep 2 && echo ok
+    fan22:
+        requires: main
+        steps:
+            - step13: sleep 2 && echo ok
+            - step14: sleep 2 && echo ok
+            - step15: sleep 2 && echo ok
+    fan23:
+        requires: main
+        steps:
+            - step13: sleep 2 && echo ok
+            - step14: sleep 2 && echo ok
+            - step15: sleep 2 && echo ok
+    fan24:
+        requires: main
+        steps:
+            - step13: sleep 2 && echo ok
+            - step14: sleep 2 && echo ok
+            - step15: sleep 2 && echo ok
+    fan25:
+        requires: main
+        steps:
+            - step13: sleep 2 && echo ok
+            - step14: sleep 2 && echo ok
+            - step15: sleep 2 && echo ok
+    fan26:
+        requires: main
+        steps:
+            - step13: sleep 2 && echo ok
+            - step14: sleep 2 && echo ok
+            - step15: sleep 2 && echo ok
+    fan27:
+        requires: main
+        steps:
+            - step13: sleep 2 && echo ok
+            - step14: sleep 2 && echo ok
+            - step15: sleep 2 && echo ok
+
     dot1:
         requires: [~fan1, ~fan2]
         steps:
