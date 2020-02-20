@@ -7,7 +7,7 @@ jobs:
         steps:
             - step1:  sleep 5 && echo ok
             - step2:  sleep 5 && echo ok
-            - shell: ./bin/myshell.sh -i
+            - shell: ./bin/myshell.sh -i -e ats
     fan1:
         requires: main
         steps:
